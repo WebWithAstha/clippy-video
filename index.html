@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,32 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
-    <div id="main" class="w-full">
-        <div id="video" class="w-full h-screen bg-purple-200" >
-            <video autoplay muted loop class="w-full h-screen object-cover" src="./assets/3763968-uhd_3840_2160_25fps.mp4"></video>
+    <div id="main" class="w-full bg-red-500">
+
+        <svg class="absolute h-0 w-0">
+            <defs>
+                <clipPath id="clippy" clipPathUnits="objectBoundingBox">
+                    <!-- <path fill-rule="evenodd" clip-rule="evenodd" d="M0.5 0.5C0.776142 0.5 1 0.388071 1 0.25C1 0.111929 0.776142 0 0.5 0C0.223858 0 0 0.111929 0 0.25C0 0.388071 0.223858 0.5 0.5 0.5ZM0.5 0.5H1V1H0V0.5H0.5Z" fill="#D9D9D9"/> -->
+                    <path d="M0.203133 0.257529C0.120475 0.189305 0.0218742 0.180875 0 0.316533V1H0.422474C0.58671 1 0.625068 0.954517 0.596434 0.84327C0.728795 0.90043 0.799028 0.858635 0.789303 0.706208C0.910859 0.745544 1 0.706822 1 0.557468V0H0.541869C0.404106 0 0.378174 0.0565458 0.386278 0.153657C0.278768 0.0921942 0.208536 0.124155 0.203133 0.257529Z" fill="#D9D9D9"/>
+                    <path d="M0.203133 0.257529C0.120475 0.189305 0.0218742 0.180875 0 0.316533V1H0.422474C0.58671 1 0.625068 0.954517 0.596434 0.84327C0.728795 0.90043 0.799028 0.858635 0.789303 0.706208C0.910859 0.745544 1 0.706822 1 0.557468V0H0.541869C0.404106 0 0.378174 0.0565458 0.386278 0.153657C0.278768 0.0921942 0.208536 0.124155 0.203133 0.257529Z" stroke="black"/>
+                    
+
+                </clipPath>
+            </defs>
+        </svg>
+        
+        <div id="video" class="w-full h-[120vh] bg-purple-200">
+            <video autoplay muted loop class="w-full h-full object-cover"
+                src="./assets/3763968-uhd_3840_2160_25fps.mp4"></video>
         </div>
+
     </div>
-    
+
+
+
 </body>
+
+
 </html>
